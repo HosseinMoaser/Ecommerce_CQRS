@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce_CQRS.Domain", "Ecommerce_CQRS.Domain\Ecommerce_CQRS.Domain.csproj", "{206B8B08-FDF0-41CE-8532-6A03867D2993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DD8102C1-80E9-4E26-82A4-6ADBF55BD575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce_CQRS.Shared.Abstractions", "Ecommerce_CQRS.Shared.Abstractions\Ecommerce_CQRS.Shared.Abstractions.csproj", "{02DE9CBD-F462-4413-AF31-F91A9B0E3070}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206B8B08-FDF0-41CE-8532-6A03867D2993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B8B08-FDF0-41CE-8532-6A03867D2993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206B8B08-FDF0-41CE-8532-6A03867D2993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206B8B08-FDF0-41CE-8532-6A03867D2993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DE9CBD-F462-4413-AF31-F91A9B0E3070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DE9CBD-F462-4413-AF31-F91A9B0E3070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DE9CBD-F462-4413-AF31-F91A9B0E3070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DE9CBD-F462-4413-AF31-F91A9B0E3070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02DE9CBD-F462-4413-AF31-F91A9B0E3070} = {DD8102C1-80E9-4E26-82A4-6ADBF55BD575}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5ECE3248-D381-43EA-B5EF-D1E08A39BD24}
